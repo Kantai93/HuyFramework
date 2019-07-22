@@ -14,6 +14,7 @@
 		1858C53422E5B1D0007279C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1858C53322E5B1D0007279C6 /* Assets.xcassets */; };
 		1858C53722E5B1D0007279C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858C53522E5B1D0007279C6 /* LaunchScreen.storyboard */; };
 		1858C53D22E5B55A007279C6 /* HuyFrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C53C22E5B55A007279C6 /* HuyFrameWork.swift */; };
+		18CCA0F722E5C78000282EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C52E22E5B1CE007279C6 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -201,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CCA0F722E5C78000282EC1 /* ViewController.swift in Sources */,
 				1858C53D22E5B55A007279C6 /* HuyFrameWork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
