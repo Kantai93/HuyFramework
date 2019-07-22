@@ -15,6 +15,7 @@
 		1858C53722E5B1D0007279C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858C53522E5B1D0007279C6 /* LaunchScreen.storyboard */; };
 		1858C53D22E5B55A007279C6 /* HuyFrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C53C22E5B55A007279C6 /* HuyFrameWork.swift */; };
 		18CCA0F722E5C78000282EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C52E22E5B1CE007279C6 /* ViewController.swift */; };
+		18CCA0F922E5C96E00282EC1 /* HuyFrameWork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1858C53622E5B1D0007279C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1858C53822E5B1D0007279C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1858C53C22E5B55A007279C6 /* HuyFrameWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuyFrameWork.swift; sourceTree = "<group>"; };
+		18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HuyFrameWork.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				1858C51E22E5B11F007279C6 /* HuyFrameWork.h */,
 				1858C51F22E5B11F007279C6 /* Info.plist */,
 				1858C53C22E5B55A007279C6 /* HuyFrameWork.swift */,
+				18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */,
 			);
 			path = HuyFrameWork;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CCA0F922E5C96E00282EC1 /* HuyFrameWork.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
