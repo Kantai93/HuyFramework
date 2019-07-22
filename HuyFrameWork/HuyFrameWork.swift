@@ -8,7 +8,7 @@
 
 import Foundation
 
-open class Testing1{
+public class HuyFrameWork{
     public func hello(){
         print("Ahihi")
     }
