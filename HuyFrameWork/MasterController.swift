@@ -14,7 +14,7 @@ public class MasterController: UIViewController{
     
     public func startView() -> UIView{
         self.views = UIView(frame: CGRect(x: 0, y: 0, width: 320, height: 200))
-        self.views?.backgroundColor = UIColor.red
+        self.views?.backgroundColor = UIColor.black
         
         return self.views ?? UIView()
     }
