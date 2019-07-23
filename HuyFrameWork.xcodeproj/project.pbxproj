@@ -13,10 +13,36 @@
 		1858C53222E5B1CE007279C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858C53022E5B1CE007279C6 /* Main.storyboard */; };
 		1858C53422E5B1D0007279C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1858C53322E5B1D0007279C6 /* Assets.xcassets */; };
 		1858C53722E5B1D0007279C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858C53522E5B1D0007279C6 /* LaunchScreen.storyboard */; };
-		1858C53D22E5B55A007279C6 /* HuyFrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C53C22E5B55A007279C6 /* HuyFrameWork.swift */; };
+		1858C53D22E5B55A007279C6 /* MasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C53C22E5B55A007279C6 /* MasterController.swift */; };
 		18CCA0F722E5C78000282EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C52E22E5B1CE007279C6 /* ViewController.swift */; };
 		18CCA0F922E5C96E00282EC1 /* HuyFrameWork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */; };
+		18CCA0FF22E5CDC700282EC1 /* HuyFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C51B22E5B11F007279C6 /* HuyFrameWork.framework */; };
+		18CCA10022E5CDC700282EC1 /* HuyFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C51B22E5B11F007279C6 /* HuyFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CCA10122E5CDC700282EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1858C51222E5B11F007279C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1858C51A22E5B11F007279C6;
+			remoteInfo = HuyFrameWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18CCA10322E5CDC700282EC1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18CCA10022E5CDC700282EC1 /* HuyFrameWork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1858C51B22E5B11F007279C6 /* HuyFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuyFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,7 +55,7 @@
 		1858C53322E5B1D0007279C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1858C53622E5B1D0007279C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1858C53822E5B1D0007279C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1858C53C22E5B55A007279C6 /* HuyFrameWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuyFrameWork.swift; sourceTree = "<group>"; };
+		1858C53C22E5B55A007279C6 /* MasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterController.swift; sourceTree = "<group>"; };
 		18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HuyFrameWork.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -45,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CCA0FF22E5CDC700282EC1 /* HuyFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +101,7 @@
 			children = (
 				1858C51E22E5B11F007279C6 /* HuyFrameWork.h */,
 				1858C51F22E5B11F007279C6 /* Info.plist */,
-				1858C53C22E5B55A007279C6 /* HuyFrameWork.swift */,
+				1858C53C22E5B55A007279C6 /* MasterController.swift */,
 				18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */,
 			);
 			path = HuyFrameWork;
@@ -132,10 +159,12 @@
 				1858C52622E5B1CE007279C6 /* Sources */,
 				1858C52722E5B1CE007279C6 /* Frameworks */,
 				1858C52822E5B1CE007279C6 /* Resources */,
+				18CCA10322E5CDC700282EC1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18CCA10222E5CDC700282EC1 /* PBXTargetDependency */,
 			);
 			name = TestingHuyFrameWork;
 			productName = TestingHuyFrameWork;
@@ -207,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CCA0F722E5C78000282EC1 /* ViewController.swift in Sources */,
-				1858C53D22E5B55A007279C6 /* HuyFrameWork.swift in Sources */,
+				1858C53D22E5B55A007279C6 /* MasterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +250,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CCA10222E5CDC700282EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1858C51A22E5B11F007279C6 /* HuyFrameWork */;
+			targetProxy = 18CCA10122E5CDC700282EC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1858C53022E5B1CE007279C6 /* Main.storyboard */ = {
@@ -420,6 +457,7 @@
 		1858C53A22E5B1D0007279C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CN85ZF8AM;
@@ -438,6 +476,7 @@
 		1858C53B22E5B1D0007279C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CN85ZF8AM;
