@@ -35,4 +35,8 @@ public class MasterController: UIViewController{
     public func hello(){
         print("Ahihi")
     }
+    
+    
 }
+
+

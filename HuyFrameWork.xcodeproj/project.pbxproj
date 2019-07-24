@@ -14,9 +14,7 @@
 		1858C53422E5B1D0007279C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1858C53322E5B1D0007279C6 /* Assets.xcassets */; };
 		1858C53722E5B1D0007279C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858C53522E5B1D0007279C6 /* LaunchScreen.storyboard */; };
 		1858C53D22E5B55A007279C6 /* MasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C53C22E5B55A007279C6 /* MasterController.swift */; };
-		18685A6522E8032D00BC164B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18685A6422E8032D00BC164B /* Assets.xcassets */; };
-		18685A6722E807BD00BC164B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18685A6422E8032D00BC164B /* Assets.xcassets */; };
-		18CCA0F722E5C78000282EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858C52E22E5B1CE007279C6 /* ViewController.swift */; };
+		189B261422E81B8B00F86A40 /* arrow-point-to-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 189B261122E81B8A00F86A40 /* arrow-point-to-right.png */; };
 		18CCA0F922E5C96E00282EC1 /* HuyFrameWork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */; };
 		18CCA0FF22E5CDC700282EC1 /* HuyFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C51B22E5B11F007279C6 /* HuyFrameWork.framework */; };
 		18CCA10022E5CDC700282EC1 /* HuyFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C51B22E5B11F007279C6 /* HuyFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -58,7 +56,7 @@
 		1858C53622E5B1D0007279C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1858C53822E5B1D0007279C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1858C53C22E5B55A007279C6 /* MasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterController.swift; sourceTree = "<group>"; };
-		18685A6422E8032D00BC164B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189B261122E81B8A00F86A40 /* arrow-point-to-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-point-to-right.png"; sourceTree = "<group>"; };
 		18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HuyFrameWork.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -102,11 +100,11 @@
 		1858C51D22E5B11F007279C6 /* HuyFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				189B261722E833DB00F86A40 /* Assets */,
 				1858C51E22E5B11F007279C6 /* HuyFrameWork.h */,
 				1858C51F22E5B11F007279C6 /* Info.plist */,
 				1858C53C22E5B55A007279C6 /* MasterController.swift */,
 				18CCA0F822E5C96E00282EC1 /* HuyFrameWork.podspec */,
-				18685A6422E8032D00BC164B /* Assets.xcassets */,
 			);
 			path = HuyFrameWork;
 			sourceTree = "<group>";
@@ -122,6 +120,14 @@
 				1858C53822E5B1D0007279C6 /* Info.plist */,
 			);
 			path = TestingHuyFrameWork;
+			sourceTree = "<group>";
+		};
+		189B261722E833DB00F86A40 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				189B261122E81B8A00F86A40 /* arrow-point-to-right.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,7 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18685A6522E8032D00BC164B /* Assets.xcassets in Resources */,
+				189B261422E81B8B00F86A40 /* arrow-point-to-right.png in Resources */,
 				18CCA0F922E5C96E00282EC1 /* HuyFrameWork.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +235,6 @@
 			files = (
 				1858C53722E5B1D0007279C6 /* LaunchScreen.storyboard in Resources */,
 				1858C53422E5B1D0007279C6 /* Assets.xcassets in Resources */,
-				18685A6722E807BD00BC164B /* Assets.xcassets in Resources */,
 				1858C53222E5B1CE007279C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CCA0F722E5C78000282EC1 /* ViewController.swift in Sources */,
 				1858C53D22E5B55A007279C6 /* MasterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
