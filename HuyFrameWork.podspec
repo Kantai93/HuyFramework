@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "HuyFrameWork"
-spec.version      = "0.0.5"
+spec.version      = "0.0.6"
 spec.summary      = "A CocoaPods library written in Swift"
 
 spec.description  = <<-DESC
@@ -33,5 +33,9 @@ spec.swift_version = "4.2"
 
 spec.source        = { :git => "https://github.com/Kantai93/HuyFramework.git", :tag => "#{spec.version}" }
 spec.source_files  = "HuyFrameWork/**/*.{h,m,swift}"
+
+spec.resource_bundles = {
+   "HuyFrameWork" => ["HuyFrameWork/Assets/*.png"]
+}
 
 end
